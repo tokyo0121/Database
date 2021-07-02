@@ -1,0 +1,29 @@
+/*コラムメニューページ*/
+.container{
+  padding: 50px;
+}
+
+.contents-list{
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.contents-list li{
+  width: 31.5%;
+  flex: auto auto 30%;
+  margin-bottom: 20px;
+  border: 1px solid #dadada;
+}
+
+.contents-list li:empty{
+  border: none;
+}
+
+.contents-list img{
+  width: 100%;
+}
