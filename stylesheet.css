@@ -1,6 +1,47 @@
+body{
+  font-family: 'Hiragino Kaku Gothic Pro', 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', sans-serif;
+	font-size: 1em;
+	color: #5F5F5F;
+	background-color: #F7F9FA;
+  margin: 0;
+}
+
+a,a:visited {
+	text-decoration: none;
+	color: #5F5F5F
+}
+
+a:hover {
+	opacity: 0.6;
+	transition: all 0.5s;
+}
+
+header {
+	background-color: #F7F9FA;
+	border-bottom: solid 1px #E9F0F4;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.header_wrapper {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	max-width: 1080px;
+	margin: 0 auto;
+
+}
+
+.header_nav a {
+	color: #4686A1;
+}
+
 /*コラムメニューページ*/
 .container{
-  padding: 50px;
+  padding: 150px 50px;
 }
 
 .contents-list{
@@ -8,7 +49,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 50px;
   padding: 0;
   flex-wrap: wrap;
 }
@@ -18,6 +59,13 @@
   flex: auto auto 30%;
   margin-bottom: 20px;
   border: 1px solid #dadada;
+  transition: all .5s;
+}
+
+.contents-list li:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px #555555, 0 3px 6px rgba(0,0,0,.08);
+  opacity: 0.8;
 }
 
 .contents-list li:empty{
@@ -26,4 +74,9 @@
 
 .contents-list img{
   width: 100%;
+}
+
+.contents-list p{
+  padding-left: 30px;
+  font-size: 19px;
 }
