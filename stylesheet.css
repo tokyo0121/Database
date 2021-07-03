@@ -100,7 +100,7 @@ header {
   border-top: 3px solid #3C8D9F;
 }
 
-.contents-colum p{
+.text{
   text-indent: 2em;
   line-height: 45px;
   padding-bottom: 10px;
@@ -113,4 +113,8 @@ header {
 
 .colum-img{
   text-align: center;
+}
+
+.colum-backdata p{
+  text-indent: none;
 }
