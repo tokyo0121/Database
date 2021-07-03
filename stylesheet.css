@@ -63,8 +63,9 @@ header {
 }
 
 .contents-list li:hover{
+  cursor: pointer;
   transform: translateY(-2px);
-  box-shadow: 0 10px 15px #555555, 0 3px 6px rgba(0,0,0,.08);
+  box-shadow: 5px 8px 10px #555555;
   opacity: 0.8;
 }
 
@@ -79,4 +80,37 @@ header {
 .contents-list p{
   padding-left: 30px;
   font-size: 19px;
+}
+
+
+/*コラムページ*/
+.container-colum {
+  padding: 150px 250px;
+}
+
+.container-colum h1{
+  font-size: 45px;
+  color: #3C8D9F;
+}
+
+.contents-colum {
+  margin-top: 20px;
+  padding: 30px 2px;
+  font-size: 21px;
+  border-top: 3px solid #3C8D9F;
+}
+
+.contents-colum p{
+  text-indent: 2em;
+  line-height: 45px;
+  padding-bottom: 10px;
+}
+
+.contents-colum img{
+  width: 80%;
+  margin: 30px auto;
+}
+
+.colum-img{
+  text-align: center;
 }
