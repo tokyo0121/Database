@@ -26,6 +26,20 @@
     padding: 100px 70px;
   }
 
+  .container-colum-title h1{
+    font-size: 37px;
+  }
+
+  .container-colum-title h3{
+    font-size: 20px;
+    margin: 0;
+    line-height: 15px;
+  }
+
+  .container-colum-title p{
+    font-size: 17px;
+  }
+
   .colum-backdata{
     line-height: 30px;
   }
@@ -68,8 +82,18 @@
     padding: 100px 20px;
   }
 
-  .container-colum h1{
+  .container-colum-title h1{
     font-size: 20px;
+  }
+
+  .container-colum-title h3{
+    font-size: 11px;
+    margin: 0;
+    line-height: 15px;
+  }
+
+  .container-colum-title p{
+    font-size: 9px;
   }
 
   .contents-colum{

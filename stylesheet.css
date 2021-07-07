@@ -36,12 +36,23 @@ header {
 }
 
 .header_nav a {
+  padding-left: 40px;
 	color: #4686A1;
 }
 
 /*コラムメニューページ*/
 .container{
-  padding: 150px 50px;
+  padding: 150px;
+  max-width: 1080px;
+  width: 89%;
+  margin: 0 auto;
+}
+
+.container-head{
+  font-size: 20px;
+  color: #666666;
+  border-bottom: 3px solid #3C8D9F;
+  margin-bottom: 60px;
 }
 
 .contents-list{
@@ -49,7 +60,6 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0 50px;
   padding: 0;
   flex-wrap: wrap;
 }
@@ -88,9 +98,19 @@ header {
   padding: 150px 250px;
 }
 
-.container-colum h1{
-  font-size: 45px;
+
+.container-colum-title{
   color: #3C8D9F;
+}
+
+.container-colum-title h1{
+  font-size: 45px;
+}
+
+.container-colum-title h3{
+  font-size: 23px;
+  margin: 0;
+  line-height: 10px;
 }
 
 .contents-colum {
