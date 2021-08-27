@@ -10,6 +10,10 @@
     padding: 120px 40px;
   }
 
+  .container-head{
+    font-size: 15px;
+  }
+
   .contents-list li{
     width: 47%;
     flex: auto auto 50%;
@@ -59,6 +63,10 @@
   /*コラムメニューページ*/
   .container{
     padding: 100px 0;
+  }
+
+  .container-head{
+    font-size: 12px;
   }
 
   .contents-list{
