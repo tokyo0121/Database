@@ -90,7 +90,7 @@ header {
 }
 
 .contents-list p{
-  padding-left: 30px;
+  padding: 0 25px;
   font-size: 19px;
 }
 
@@ -136,6 +136,16 @@ header {
 .colum-img{
   text-align: center;
 }
+
+.colum06 .colum-img img{
+  width: 50%;
+  display: flex;
+  float: left;
+}
+
+.colum06 .colum-img img:nth-child(2) {
+    margin: 0 10px;
+  }
 
 .colum-backdata{
   margin-top: 50px;

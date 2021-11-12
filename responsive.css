@@ -109,6 +109,11 @@
     font-size: 15px;
   }
 
+  .colum06 .colum-img img{
+    width: 95%;
+    margin: 5px auto;
+  }
+
   .text{
     line-height: 22px;
   }
