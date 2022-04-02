@@ -51,6 +51,10 @@
   .colum-backdata span{
     font-size: 16px;
   }
+
+  .header_wrapper{
+    max-width: 1000px;
+  }
 }
 
 /*スマホ向けレイアウト*/
@@ -144,6 +148,10 @@
   .colum-backdata span{
     font-size: 12px;
     word-wrap: break-word;
+  }
+
+  .header_wrapper{
+    max-width: 670px;
   }
 
 }
